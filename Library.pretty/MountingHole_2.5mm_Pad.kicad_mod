@@ -1,0 +1,120 @@
+(footprint "MountingHole_2.5mm_Pad"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Mounting Hole 2.5mm")
+	(tags "mounting hole 2.5mm")
+	(property "Reference" "REF**"
+		(at -0.04 0.13 0)
+		(layer "User.1")
+		(uuid "d1394c80-6b89-494c-b996-b50f812ff356")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Conn_01x01_Socket"
+		(at 0 3.5 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e612663d-af5c-4d92-8efc-8d2cced71c7e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "MountingHole:MountingHole_2.5mm_Pad"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "10737219-2dba-4f15-b225-a8159bea1384")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "47c9d3cc-f93d-4cfd-add9-0a3178b0d3ad")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Generic connector, single row, 01x01, script generated"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b5ec67cf-aa2f-4986-8a84-8db07930c93b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr exclude_from_pos_files)
+	(fp_circle
+		(center 0 0)
+		(end 2.5 0)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill none)
+		(layer "Cmts.User")
+		(uuid "974f716e-e2d8-4edb-aa0b-8d4f4b8f0084")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 2.75 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "4b58a886-4dc6-49a6-87fc-9a6b12e1de2b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "8f27edbd-5d5e-4a20-a8c7-c3e77b7db000")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 4 4)
+		(drill 2.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 8)
+			(best_width_ratio 1)
+			(max_width 8)
+			(curve_points 0)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "75835253-b28f-4cf6-b416-fb7bb0937f6d")
+	)
+)
